@@ -12,7 +12,7 @@ public class ExtendReport {
 
 	public static void main(String[] args) throws IOException {
 
-    ExtentHtmlReporter reporter = new ExtentHtmlReporter("E:\\JavaPrac\\reportJarsProj\\Report\\ashish.html");
+     ExtentHtmlReporter reporter = new ExtentHtmlReporter("E:\\JavaPrac\\reportJarsProj\\Report\\ashish.html");
 	ExtentReports extent = new ExtentReports();
 	extent.attachReporter(reporter);
 	ExtentTest logg = extent.createTest("main");

@@ -16,7 +16,7 @@ public class BlueStone1 {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	   } 
 
-	public static void main(String[] args) throws InterruptedException {
+ 	public static void main(String[] args) throws InterruptedException {
 		
 		ChromeOptions op=new ChromeOptions();
 		op.addArguments("--disable-notifications");

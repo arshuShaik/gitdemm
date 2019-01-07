@@ -20,7 +20,7 @@ public class BlueStone {
 		ChromeOptions op=new ChromeOptions();
 		op.addArguments("--disable-notifications");
 
-		WebDriver driver=new ChromeDriver(op);
+		 WebDriver driver=new ChromeDriver(op);
 		driver.get("https://www.bluestone.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
