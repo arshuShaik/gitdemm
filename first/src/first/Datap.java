@@ -29,6 +29,7 @@ public class Datap
 				Cell cell=wb.getSheet("Sheet1").getRow(i).getCell(j);
 				str[i][j]=cell.toString();
 				System.out.println(cell);
+				
 			}
 		}
 		return str;
